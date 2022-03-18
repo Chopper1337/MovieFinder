@@ -99,6 +99,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "movie-finder:build:production",
+            "firebaseProject": "moviefinder-d5e67",
+            "firebaseHostingSite": "moviefinder-d5e67"
+          }
         }
       }
     }

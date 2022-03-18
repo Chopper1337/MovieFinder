@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "moviefinder-d5e67": {
+      "hosting": {
+        "movie-finder": [
+          "moviefinder-d5e67"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "moviefinder-d5e67"
+  }
+}
